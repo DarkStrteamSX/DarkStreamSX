@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const target = urlParams.get('target');
+    const ad = urlParams.get('ad');
+
+    if (ad === "false") {
+      window.location.href = target; // instant redirect
+    } else {
+      setTimeout(() => {
+        window.location.href = target;
+      }, 10000); // 10-second ad timer
+    }
+  </script>
+  <style>
+    body { font-family: sans-serif; background: #000; color: #fff; display: flex; align-items: center; justify-content: center; height: 100vh; text-align: center; }
+    .message { font-size: 20px; }
+  </style>
+</head>
+<body>
+  <div class="message">
+    Redirecting to your video, please wait...<br>
+    <small>Ads may appear for 10 seconds if enabled.</small>
+  </div>
+</body>
+</html>
