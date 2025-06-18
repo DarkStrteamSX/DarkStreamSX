@@ -1,0 +1,36 @@
+
+[
+  {
+    "id": "1",
+    "title": "Hot Action Movie 2025",
+    "thumbnail": "thumb1.jpg",
+    "doodstream": "https://doodstream.com/example1",
+    "terabox": "https://terabox.com/example1",
+    "upload_date": "2025-06-15",
+    "trend": true,
+    "bangla": false,
+    "cartoon": false
+  },
+  {
+    "id": "2",
+    "title": "Romantic Night Scenes",
+    "thumbnail": "thumb2.jpg",
+    "doodstream": "https://doodstream.com/example2",
+    "terabox": "https://terabox.com/example2",
+    "upload_date": "2025-06-10",
+    "trend": false,
+    "bangla": true,
+    "cartoon": false
+  },
+  {
+    "id": "3",
+    "title": "Thrilling Encounter",
+    "thumbnail": "thumb3.jpg",
+    "doodstream": "https://doodstream.com/example3",
+    "terabox": "https://terabox.com/example3",
+    "upload_date": "2025-06-12",
+    "trend": true,
+    "bangla": false,
+    "cartoon": true
+  }
+]
